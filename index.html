@@ -1,0 +1,11 @@
+<script src="spine\spine-player.js"></script>
+<link rel="stylesheet" href="spine\spine-player.css">
+
+<div id="player-container" style="width: 100%; height: 100vh;"></div>
+
+<script>
+new spine.SpinePlayer("player-container", {
+	jsonUrl: "http://esotericsoftware.com/files/examples/4.0/spineboy/export/spineboy-pro.json",
+	atlasUrl: "http://esotericsoftware.com/files/examples/4.0/spineboy/export/spineboy.atlas"
+});
+</script>
